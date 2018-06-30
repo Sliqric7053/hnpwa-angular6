@@ -1,14 +1,18 @@
-# HNPWA Angular 5.0
+# hnpwa-angular6
 
-Watch the [Angular 5 Service Worker screencast](https://angularfirebase.com/lessons/hnpwa-angular-5-progressive-web-app-service-worker-tutorial/). 
+A realtime Hacker News Progressive Web App using:
 
-A realtime Hacker News Progressive Web App using: 
-
-- Angular 5.0 
-- @angular/service-worker 
+- Angular 6
+- @angular/service-worker
 - AngularFire2
-- Lighthouse: 100 PWA  | ~90 Performance
+- Lighthouse: 100 PWA | ~90 Performance
 
 It's real: [Live Demo](https://hnpwa-cbf63.firebaseapp.com/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0-rc.0.
+The project was created and improved on by [Richard Sithole](https://twitter.com/sliqric) for demo purposes at his talk at the Google Developer Group - Johannesburg
+
+The presentation slides can be found [here](http://www.example.com)
+
+This project was originally created by Jeff Delaney of [AngularFirebase.com](https://angularfirebase.com), follow him on [twitter](https://twitter.com/angularfirebase)
+
+Thanks for all your help Jeff! :)

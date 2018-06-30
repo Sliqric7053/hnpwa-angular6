@@ -10,6 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "pwa": "ng build --prod && /Users/isloan/.nvm/versions/node/v8.6.0/lib/node_modules/http-server/bin/http-server ./dist",
+    "deploy": "ng build --prod && firebase deploy",
     "analyzer": "webpack-bundle-analyzer dist/stats.json"
   },
   "private": true,

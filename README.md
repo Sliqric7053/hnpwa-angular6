@@ -5,9 +5,9 @@ A realtime Hacker News Progressive Web App using:
 - Angular 6
 - @angular/service-worker
 - AngularFire2
-- Lighthouse: 100 PWA | ~90 Performance
+- Lighthouse: 100 PWA | ~91 Performance
 
-It's real: [Live Demo](https://hnpwa-cbf63.firebaseapp.com/)
+It's real: [Live Demo](https://angular6-hn.firebaseapp.com/)
 
 The project was created and improved on by [Richard Sithole](https://twitter.com/sliqric) for demo purposes at his talk at the Google Developer Group - Johannesburg
 

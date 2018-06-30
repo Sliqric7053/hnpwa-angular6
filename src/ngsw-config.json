@@ -16,5 +16,27 @@
         "files": ["/assets/**"]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "urls": [
+        "/",
+        "/hn",
+        "/news",
+        "/top",
+        "/new",
+        "/ask",
+        "/show",
+        "/jobs",
+        "/item",
+        "/user"
+      ],
+      "cacheConfig": {
+        "maxSize": 100000,
+        "maxAge": "7d",
+        "strategy": "performance"
+      }
+    }
   ]
 }

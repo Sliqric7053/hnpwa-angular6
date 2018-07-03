@@ -19,13 +19,22 @@
   ],
   "dataGroups": [
     {
+      "name": "api-freshness",
+      "urls": ["/new"],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "1h",
+        "timeout": "10s",
+        "strategy": "freshness"
+      }
+    },
+    {
       "name": "api-performance",
       "urls": [
         "/",
         "/hn",
         "/news",
         "/top",
-        "/new",
         "/ask",
         "/show",
         "/jobs",

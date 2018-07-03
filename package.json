@@ -9,8 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pwa": "ng build --prod && /Users/isloan/.nvm/versions/node/v8.6.0/lib/node_modules/http-server/bin/http-server ./dist",
+    "pwa": "ng build --prod && /Users/isloan/.nvm/versions/node/v8.6.0/lib/node_modules/http-server/bin/http-server -P ./dist",
     "deploy": "ng build --prod && firebase deploy",
+    "servepy": "python -m SimpleHTTPServer 8100 --open",
     "analyzer": "webpack-bundle-analyzer dist/stats.json"
   },
   "private": true,
@@ -34,6 +35,7 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.6.8",
     "@angular/cli": "6.0.8",
     "@angular/compiler-cli": "6.0.7",
     "@angular/language-service": "6.0.7",
@@ -55,7 +57,6 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "2.7.2",
-    "webpack-bundle-analyzer": "^2.9.1",
-    "@angular-devkit/build-angular": "~0.6.8"
+    "webpack-bundle-analyzer": "^2.13.1"
   }
 }
